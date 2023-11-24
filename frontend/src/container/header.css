@@ -1,0 +1,106 @@
+:root{
+    --s:#040E1D;
+    --p:#040E1D;
+    --ho:100%;
+    --so:60%;
+    --po:60%;
+}
+
+.new{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.SideBar{
+    background-color:#000000;
+    display: flex;
+    flex-direction: row;
+    font-family: "Inria Sans";
+    height: 50px;
+    padding: 20px;
+    width: 100%;
+    color: aliceblue;
+    border-radius: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.field{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+.NameWebsite{
+    display: flex;
+    flex-direction:row;
+    height: 50px;
+    margin-left: 40px;
+    width: 300px;
+    align-items: center;
+    font-size: 40px;
+}
+.HOME_BUTTON{
+    width: 130px;
+    margin-left: 500px;
+    padding-block: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #040E1D;
+    opacity: 60%;
+    font-family: "Inria Sans";
+    font-weight: 800;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: center;
+}
+.SEARCH_BUTTON{
+    width: 130px;
+    padding-block: 30px;
+    border-radius: 5px;
+    padding-left: 50px;
+    border-style: solid;
+    border-color: #040E1D;
+    opacity: 60%;
+    font-family: "Inria Sans";
+    font-weight: 800;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.PLAYLISTS_BUTTON{
+    width: 130px;
+    padding-block: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #040E1D;
+    opacity: 60%;
+    padding-left: 50px;
+    font-family: "Inria Sans";
+    font-weight: 800;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.LogoApp{
+    height: 65px;
+}
+
+h1:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.clicked{
+    border-color: #d35f12;
+    opacity: 100%;
+    
+}
+
+.Nclicked{
+    border-color: #040E1D;
+    opacity: 60%;
+}
