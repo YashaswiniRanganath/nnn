@@ -2,7 +2,7 @@ import { useState } from "react";
 import './login.css'
 import { useNavigate } from "react-router-dom";
 import {useCookies} from 'react-cookie'
-import postRequest from '../utils/serverhelper.js'
+import {postRequest} from '../utils/serverhelper.js'
 
 function Login(){
 

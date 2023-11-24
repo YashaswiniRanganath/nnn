@@ -14,4 +14,17 @@ async function postRequest(route,body){
     return formattedResponse;
 }
 
-export default postRequest;
+async function getRequest(route){
+    const response = await fetch(site+route, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+    })
+
+    const formattedResponse = await response.json();
+    
+    return formattedResponse;
+}
+
+export {postRequest,getRequest};

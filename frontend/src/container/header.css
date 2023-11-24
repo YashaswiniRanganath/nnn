@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     font-family: "Inria Sans";
-    height: 50px;
+    height: 60px;
     padding: 20px;
     width: 100%;
     color: aliceblue;
@@ -31,6 +31,7 @@
     flex-direction: row;
     height: 50px;
     align-items: center;
+    margin-right: 30px;
 }
 .NameWebsite{
     display: flex;
@@ -95,7 +96,7 @@ h1:hover{
 }
 
 .clicked{
-    border-color: #d35f12;
+    border-color: #ffffff;
     opacity: 100%;
     
 }
