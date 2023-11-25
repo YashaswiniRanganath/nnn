@@ -3,8 +3,8 @@ import HotelModel from '../models/Hotels.js';
 
 const router = express.Router();
 
-router.get('/get/allhotels', async (req,res) => {
-    const {city} = req.body;
+router.get('/get/allhotels/:city', async (req,res) => {
+    const city = req.params.city;
 
     const hotels = await HotelModel.find({city : city});
 

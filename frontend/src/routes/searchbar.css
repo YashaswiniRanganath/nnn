@@ -1,0 +1,40 @@
+.SearchBar{
+    padding-top: 100px;
+    height: 80px;
+    width: 1500px;
+    margin-left: 40px;
+    display: flex;
+    align-items: start;
+}
+#InputSearch{
+    height : 60px;
+    width: 1000px;
+    margin-left: 70px;
+    margin-top: 8px;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+#SearchButton{
+    height: 60px;
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+    font-size: 20px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#SearchButton:hover{
+    background-color: gray;
+}
+
+.search-results{
+    padding: 50px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
